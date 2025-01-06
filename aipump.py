@@ -203,7 +203,7 @@ def worker(proxy):
                 continue
 
             set_username(session, token)
-            set_referred_by(session, token, "REFFMU")
+            set_referred_by(session, token, "sparky")
             add_wallet(session, token, sol_wallet)
 
             sol_queue.task_done()
